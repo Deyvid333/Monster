@@ -97,6 +97,11 @@ p,h3{
     color: #AAAAAA;
 }
 
+.div-nome{
+    display: flex;
+    justify-content: center;
+}
+
 @media (min-width: 1024px) {
     .divfooter1{
         justify-content: space-around;
@@ -124,7 +129,7 @@ p,h3{
 
 
     body{
-        background-image: url(.img/background.png);
+        background-image: url(img/background.png);
         background-repeat: no-repeat;
         background-position: center;
     }
