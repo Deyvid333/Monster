@@ -55,7 +55,7 @@ div{
 h1{
 
  font-family: "Teko", sans-serif;
- font-size: 52px;
+ font-size: 46px;
 }
 
 h2{
@@ -87,8 +87,58 @@ footer{
     
 }
 
+.visivel{
+    display: none;
+}
+
 p,h3{
     display: inline;
     font-family: "Teko", sans-serif;
     color: #AAAAAA;
+}
+
+@media (min-width: 1024px) {
+    .divfooter1{
+        justify-content: space-around;
+    }
+
+    header{
+        justify-content: space-around;
+    }
+
+    .visivel{
+        display: block;
+    }
+
+    
+    .div-escondida{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-family: "teko";
+    }
+
+   
+
+
+    body{
+        background-image: url(/img/background.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    main{
+        justify-content: space-around;
+    }
+
+    main img{
+        height: 70%;
+    }
+
+    h1{
+        font-size: 80px;
+    }
+
 }
